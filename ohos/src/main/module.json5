@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "video_frame_extractor",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

@@ -1,4 +1,3 @@
-
 import 'dart:typed_data';
 import 'video_frame_extractor_platform_interface.dart';
 
