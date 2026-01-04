@@ -1,5 +1,6 @@
 import { FlutterEngine, Log } from '@ohos/flutter_ohos';
 import IntegrationTestPlugin from 'integration_test';
+import VideoFrameExtractorPlugin from 'video_frame_extractor';
 
 /**
  * Generated file. Do not edit.
@@ -14,6 +15,7 @@ export class GeneratedPluginRegistrant {
   static registerWith(flutterEngine: FlutterEngine) {
     try {
       flutterEngine.getPlugins()?.add(new IntegrationTestPlugin());
+      flutterEngine.getPlugins()?.add(new VideoFrameExtractorPlugin());
     } catch (e) {
       Log.e(
         TAG,
